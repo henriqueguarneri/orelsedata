@@ -1,0 +1,160 @@
+{
+    "type": "Collection",
+    "id": "stoor0_5m",
+    "stac_version": "1.0.0",
+    "description": "Collection for stoor0_5m",
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../../catalog.json",
+            "type": "application/json",
+            "title": "ORELSE STAC Catalog"
+        },
+        {
+            "rel": "item",
+            "href": "./items/stoorlaag_0_5m.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_01_10.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_01_12.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_01_2.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_01_5.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_04_10.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_04_12.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_04_2.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_04_5.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_schelp_10.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_schelp_12.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_schelp_2.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_schelp_5.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_zand_10.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_zand_12.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_zand_2.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "item",
+            "href": "./items/win_zand_5.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    3.0346784553664445,
+                    51.44701345601229,
+                    6.424252179478886,
+                    53.8181399961708
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2000-01-01T00:00:00Z",
+                    "2020-12-31T23:59:59Z"
+                ]
+            ]
+        }
+    },
+    "license": "proprietary",
+    "keywords": [
+        "North Sea",
+        "Sand Management",
+        "Sand Quality",
+        "Mineral Information System",
+        "Sand Extraction",
+        "Coastline Care",
+        "Deltares",
+        "TNO",
+        "Rijkswaterstaat"
+    ],
+    "providers": [
+        {
+            "name": "Deltares",
+            "roles": [
+                "processor"
+            ],
+            "url": "https://www.deltares.nl/expertise/projecten/zand-uit-de-noordzee/"
+        },
+        {
+            "name": "TNO",
+            "roles": [
+                "producer",
+                "host"
+            ],
+            "url": "https://www.dinoloket.nl/dis"
+        },
+        {
+            "name": "Rijkswaterstaat",
+            "roles": [
+                "producer"
+            ],
+            "url": "https://maps.rijkswaterstaat.nl/gwproj55/index.html?viewer=ZD_Zandwinstrategie.Webviewer"
+        }
+    ]
+}

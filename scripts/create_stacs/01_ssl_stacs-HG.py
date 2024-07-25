@@ -1,0 +1,305 @@
+#%%
+import os
+import pathlib
+import sys
+import json
+from posixpath import join as urljoin
+
+import pystac
+from coclicodata.drive_config import p_drive
+from coclicodata.etl.cloud_utils import dataset_from_google_cloud
+from coclicodata.etl.extract import get_mapbox_url, zero_terminated_bytes_as_str
+from pystac import Catalog, CatalogType, Collection, Summaries
+from coclicodata.coclico_stac.io import CoCliCoStacIO
+from coclicodata.coclico_stac.layouts import CoCliCoZarrLayout
+from coclicodata.coclico_stac.templates import (
+    extend_links,
+    gen_default_collection_props,
+    gen_default_item,
+    gen_default_item_props,
+    gen_default_summaries,
+    gen_mapbox_asset,
+    gen_zarr_asset,
+    get_template_collection,
+)
+from coclicodata.coclico_stac.extension import CoclicoExtension
+from coclicodata.coclico_stac.datacube import add_datacube
+from coclicodata.coclico_stac.utils import (
+    get_dimension_dot_product,
+    get_dimension_values,
+    get_mapbox_item_id,
+    rm_special_characters,
+)
+#%%
+# if __name__ == "__main__":
+# hard-coded input params at project level
+BUCKET_NAME = "orelse-data-public" # Name of the bucket within the project
+BUCKET_PROJ = "example" # Name of the project(folder) within the bucket
+MAPBOX_PROJ = "henriqueguarneri" # Name of the mapbox username
+
+# STAC configs
+STAC_DIR = "current"
+TEMPLATE_COLLECTION = "template"  # stac template for dataset collection
+COLLECTION_TITLE = "Extreme surge level"  # name of stac collection
+COLLECTION_ID = "ssl"  # id of stac collection
+DATASET_DESCRIPTION = (  # description, will be used in info boxes
+    "Dataset with extreme Storm Surge Levels (SSL) at the European scale. SSL are"
+    " estimated for three climate scenarios (Historical, RCP4.5 and RCP8.5) for"
+    " eight return periods (5, 10, 20, 50, 100, 200, 500 and 1000) according to the"
+    " Peak Over Threshold method. This dataset is part of the"
+    " [LISCOAST](https://data.jrc.ec.europa.eu/collection/LISCOAST) project. See"
+    " this [article](https://doi.org/10.1007/s00382-016-3019-5) for more"
+    " dataset-specific information."
+)
+
+# hard-coded input params which differ per dataset
+DATASET_FILENAME = "CoastAlRisk_Europe_EESSL.zarr"
+VARIABLES = ["ssl"]  # xarray variables in dataset
+X_DIMENSION = "lon"  # False, None or str; spatial lon dim used by datacube
+Y_DIMENSION = "lat"  # False, None or str; spatial lat dim used by datacube
+TEMPORAL_DIMENSION = False  # False, None or str; temporal dim ""
+ADDITIONAL_DIMENSIONS = [
+    "rp",
+    "scenarios",
+]  # List of str; dims added to datacube
+DIMENSIONS_TO_IGNORE = [
+    "stations",
+    "nscenarios",
+]  # List of str; dims ignored by datacube
+
+# hard-coded frontend properties
+STATIONS = "locationId"
+TYPE = "circle"
+ON_CLICK = {}
+
+# these are added at collection level, determine dashboard graph layout using all items
+UNITS = "m"
+PLOT_SERIES = "scenarios"
+PLOT_X_AXIS = "rp"
+PLOT_TYPE = "line"
+MIN = 0
+MAX = 3
+LINEAR_GRADIENT = [
+    {"color": "hsl(110,90%,80%)", "offset": "0.000%", "opacity": 100},
+    {"color": "hsla(55,88%,53%,0.5)", "offset": "50.000%", "opacity": 100},
+    {"color": "hsl(0,90%,70%)", "offset": "100.000%", "opacity": 100},
+]
+#%%
+# functions to generate properties at item level that vary per dataset but cannot be hard-coded
+# because they also require input arguments, (copied from mapbox layer styling if applicable)
+def get_paint_props(item_key: str):
+    return {
+        "circle-color": [
+            "interpolate",
+            ["linear"],
+            ["get", item_key],
+            0,
+            "hsl(110,90%,80%)",
+            1.5,
+            "hsla(55, 88%, 53%, 0.5)",
+            3.0,
+            "hsl(0, 90%, 70%)",
+        ],
+        "circle-radius": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            0,
+            0.5,
+            1,
+            1,
+            5,
+            5,
+        ],
+    }
+#%%
+# semi hard-coded input params
+gcs_zarr_store = urljoin("gcs://", BUCKET_NAME, BUCKET_PROJ, DATASET_FILENAME)
+gcs_api_zarr_store = urljoin(
+    "https://storage.googleapis.com", BUCKET_NAME, BUCKET_PROJ, DATASET_FILENAME
+)
+
+# read data from gcs zarr store
+ds = dataset_from_google_cloud(
+    bucket_name=BUCKET_NAME, bucket_proj=BUCKET_PROJ, zarr_filename=DATASET_FILENAME
+)
+#%%
+# import xarray as xr
+
+# fpath = pathlib.Path.home().joinpath("data", "tmp", "europe_storm_surge_level.zarr")
+# ds = xr.open_zarr(fpath)
+
+# cast zero terminated bytes to str because json library cannot write handle bytes
+ds = zero_terminated_bytes_as_str(ds)
+
+# remove characters that cause problems in the frontend.
+ds = rm_special_characters(
+    ds, dimensions_to_check=ADDITIONAL_DIMENSIONS, characters=["%"]
+)
+
+title = ds.attrs.get("title", COLLECTION_ID)
+
+# load coclico data catalog
+catalog = Catalog.from_file(os.path.join(pathlib.Path(__file__).parent.parent.parent, STAC_DIR, "catalog.json"))
+
+template_fp = os.path.join(
+    pathlib.Path(__file__).parent.parent.parent, STAC_DIR, TEMPLATE_COLLECTION, "collection.json"
+)
+#%%
+# generate collection for dataset
+collection = get_template_collection(
+    template_fp=template_fp,
+    collection_id=COLLECTION_ID,
+    title=COLLECTION_TITLE,
+    description=DATASET_DESCRIPTION,
+    keywords=[],
+)
+
+# add datacube dimensions derived from xarray dataset to dataset collection
+collection = add_datacube(
+    stac_obj=collection,
+    ds=ds,
+    x_dimension=X_DIMENSION,
+    y_dimension=Y_DIMENSION,
+    temporal_dimension=TEMPORAL_DIMENSION,
+    additional_dimensions=ADDITIONAL_DIMENSIONS,
+)
+#%%
+# generate stac feature keys (strings which will be stac item ids) for mapbox layers
+dimvals = get_dimension_values(ds, dimensions_to_ignore=DIMENSIONS_TO_IGNORE)
+dimcombs = get_dimension_dot_product(dimvals)
+
+# TODO: check what can be customized in the layout
+layout = CoCliCoZarrLayout()
+#%%
+# create stac collection per variable and add to dataset collection
+for var in VARIABLES:
+    # add zarr store as asset to collection
+    collection.add_asset("data", gen_zarr_asset(title, gcs_api_zarr_store))
+
+    # stac items are generated per AdditionalDimension (non spatial)
+    for dimcomb in dimcombs:
+        mapbox_url = get_mapbox_url(MAPBOX_PROJ, DATASET_FILENAME, var)
+
+        # generate stac item key and add link to asset to the stac item
+        item_id = get_mapbox_item_id(dimcomb)
+        feature = gen_default_item(f"{var}-mapbox-{item_id}")
+        feature.add_asset("mapbox", gen_mapbox_asset(mapbox_url))
+
+        # This calls ItemCoclicoExtension and links CoclicoExtension to the stac item
+        coclico_ext = CoclicoExtension.ext(feature, add_if_missing=True)
+
+        coclico_ext.item_key = item_id
+        coclico_ext.paint = get_paint_props(item_id)
+        coclico_ext.type_ = TYPE
+        coclico_ext.stations = STATIONS
+        coclico_ext.on_click = ON_CLICK
+
+        # TODO: include this in our datacube?
+        # add dimension key-value pairs to stac item properties dict
+        for k, v in dimcomb.items():
+            feature.properties[k] = v
+
+        # add stac item to collection
+        collection.add_item(feature, strategy=layout)
+
+# if no variables present we still need to add zarr reference at collection level
+if not VARIABLES:
+    collection.add_asset("data", gen_zarr_asset(title, gcs_api_zarr_store))
+
+# TODO: use gen_default_summaries() from blueprint.py after making it frontend compliant.
+collection.summaries = Summaries({})
+# TODO: check if maxcount is required (inpsired on xstac library)
+# stac_obj.summaries.maxcount = 50
+for k, v in dimvals.items():
+    collection.summaries.add(k, v)
+
+# this calls CollectionCoclicoExtension since stac_obj==pystac.Collection
+coclico_ext = CoclicoExtension.ext(collection, add_if_missing=True)
+
+# Add frontend properties defined above to collection extension properties. The
+# properties attribute of this extension is linked to the extra_fields attribute of
+# the stac collection.
+coclico_ext.units = UNITS
+coclico_ext.plot_series = PLOT_SERIES
+coclico_ext.plot_x_axis = PLOT_X_AXIS
+coclico_ext.plot_type = PLOT_TYPE
+coclico_ext.min_ = MIN
+coclico_ext.max_ = MAX
+coclico_ext.linear_gradient = LINEAR_GRADIENT
+
+# set extra link properties
+extend_links(collection, dimvals.keys())
+
+# save and limit number of folders, TODO: check if duplicate, then skip..
+catalog.add_child(collection)
+
+collection.normalize_hrefs(
+    os.path.join(pathlib.Path(__file__).parent.parent.parent, STAC_DIR, COLLECTION_ID), strategy=layout
+)
+
+# # Add thumbnail
+# collection.add_asset(
+#     "thumbnail",
+#     pystac.Asset(
+#         "https://storage.googleapis.com/dgds-data-public/coclico/assets/thumbnails/" + COLLECTION_ID + ".png",  # noqa: E501
+#         title="Thumbnail",
+#         media_type=pystac.MediaType.PNG,
+#     ),
+# )
+
+
+catalog.save(
+    catalog_type=CatalogType.SELF_CONTAINED,
+    dest_href=os.path.join(pathlib.Path(__file__).parent.parent.parent, STAC_DIR),
+    stac_io=CoCliCoStacIO(),
+)
+
+# %%
+
+from pystac_client import Client
+from typing import Any, Dict
+import json
+
+# STAC API root URL
+URL = 'https://planetarycomputer.microsoft.com/api/stac/v1'
+
+client = Client.open(URL)
+
+# AOI around Delfzijl, in northern Netherlands
+aoi_as_dict: Dict[str, Any] = {
+"type": "Polygon",
+"coordinates": [
+    [
+    [
+        6,
+        53
+    ],
+    [
+        7,
+        53
+    ],
+    [
+        7,
+        54
+    ],
+    [
+        6,
+        54
+    ],
+    [
+        6,
+        53
+    ]
+    ]
+]
+}
+
+search = client.search(
+max_items = 25,
+collections = "aster-l1t",
+intersects = aoi_as_dict,
+)
+
+print(f"AOI as dictionary, found {len(list(search.items()))} items")
+# %%

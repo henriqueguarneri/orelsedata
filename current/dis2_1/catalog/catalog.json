@@ -1,0 +1,43 @@
+{
+  "type": "Catalog",
+  "id": "dis_2_1_winbaarheidgrids",
+  "stac_version": "1.0.0",
+  "description": "This collection comprises spatial and temporal data assets related to the management of sand supplies in the North Sea, with an emphasis on the distribution, quality, and extractability of sand layers. Developed by Deltares/TNO under the commission of the Sea and Delta Service of Rijkswaterstaat, the mineral information system (DIS) at the core of this collection enables the rapid evaluation of extractable sand quantities across different depths (up to 12 meters) tailored to various sand quality requirements. While the system facilitates strategic decision-making on sand extraction at a regional scale, it is not designed for detailed lithological sediment analysis within potential extraction zones. The collection also underscores the importance of continuous updates with new research findings, including significant insights from the 2016 large-scale exploration of new sand extraction areas (Blauw et al., 2017), ensuring sustainable and effective sand management for coastline care and commercial uses amidst increasing maritime activity. For more information, please visit the project page at https://open.rijkswaterstaat.nl/publish/pages/143965/update_delfstoffen_informatie_systeem_dis_2-1.pdf.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "DIS 2.1 Winbaarheid grids"
+    },
+    {
+      "rel": "child",
+      "href": "./scenario1/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./scenario2/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./scenario3/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./scenario4/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./scenario999_alleenveen/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "collection"
+  ],
+  "title": "DIS 2.1 Winbaarheid grids"
+}

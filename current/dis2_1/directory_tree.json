@@ -1,0 +1,3298 @@
+{
+    "name": "",
+    "path": "./",
+    "isDirectory": true,
+    "files": [
+        {
+            "name": "json_tree.py",
+            "path": "./json_tree.py",
+            "isDirectory": false
+        },
+        {
+            "name": "tree_.txt",
+            "path": "./tree_.txt",
+            "isDirectory": false
+        }
+    ],
+    "directories": [
+        {
+            "name": "scenario1",
+            "path": "./scenario1",
+            "isDirectory": true,
+            "files": [],
+            "directories": [
+                {
+                    "name": "metgeo",
+                    "path": "./scenario1\\metgeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario1\\metgeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario1\\metgeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario1\\metgeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario1\\metgeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\metgeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                },
+                {
+                    "name": "zondergeo",
+                    "path": "./scenario1\\zondergeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario1\\zondergeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario1\\zondergeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario1\\zondergeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario1\\zondergeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario1\\zondergeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "scenario2",
+            "path": "./scenario2",
+            "isDirectory": true,
+            "files": [],
+            "directories": [
+                {
+                    "name": "metgeo",
+                    "path": "./scenario2\\metgeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario2\\metgeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario2\\metgeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario2\\metgeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "wind_zand_02.tiff",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\wind_zand_02.tiff",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario2\\metgeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\metgeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                },
+                {
+                    "name": "zondergeo",
+                    "path": "./scenario2\\zondergeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario2\\zondergeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario2\\zondergeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario2\\zondergeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario2\\zondergeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario2\\zondergeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "scenario3",
+            "path": "./scenario3",
+            "isDirectory": true,
+            "files": [],
+            "directories": [
+                {
+                    "name": "metgeo",
+                    "path": "./scenario3\\metgeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario3\\metgeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario3\\metgeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario3\\metgeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario3\\metgeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\metgeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                },
+                {
+                    "name": "zondergeo",
+                    "path": "./scenario3\\zondergeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario3\\zondergeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario3\\zondergeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario3\\zondergeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario3\\zondergeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario3\\zondergeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "scenario4",
+            "path": "./scenario4",
+            "isDirectory": true,
+            "files": [],
+            "directories": [
+                {
+                    "name": "metgeo",
+                    "path": "./scenario4\\metgeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario4\\metgeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario4\\metgeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario4\\metgeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario4\\metgeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\metgeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                },
+                {
+                    "name": "zondergeo",
+                    "path": "./scenario4\\zondergeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario4\\zondergeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario4\\zondergeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor2m",
+                            "path": "./scenario4\\zondergeo\\stoor2m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_2m.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\stoorlaag_2m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor2m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor_geen",
+                            "path": "./scenario4\\zondergeo\\stoor_geen",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_geen.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\stoorlaag_geen.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario4\\zondergeo\\stoor_geen\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "scenario999_alleenveen",
+            "path": "./scenario999_alleenveen",
+            "isDirectory": true,
+            "files": [],
+            "directories": [
+                {
+                    "name": "zondergeo",
+                    "path": "./scenario999_alleenveen\\zondergeo",
+                    "isDirectory": true,
+                    "files": [],
+                    "directories": [
+                        {
+                            "name": "stoor0_5m",
+                            "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_0_5m.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\stoorlaag_0_5m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor0_5m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        },
+                        {
+                            "name": "stoor1m",
+                            "path": "./scenario999_alleenveen\\zondergeo\\stoor1m",
+                            "isDirectory": true,
+                            "files": [
+                                {
+                                    "name": "stoorlaag_1m.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\stoorlaag_1m.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_01_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_01_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_01_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_01_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_01_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_04_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_04_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_04_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_04_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_04_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_schelp_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_schelp_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_schelp_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_schelp_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_schelp_5.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_10.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_zand_10.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_12.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_zand_12.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_2.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_zand_2.asc",
+                                    "isDirectory": false
+                                },
+                                {
+                                    "name": "win_zand_5.asc",
+                                    "path": "./scenario999_alleenveen\\zondergeo\\stoor1m\\win_zand_5.asc",
+                                    "isDirectory": false
+                                }
+                            ],
+                            "directories": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

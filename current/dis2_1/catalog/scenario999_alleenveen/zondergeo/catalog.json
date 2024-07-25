@@ -1,0 +1,29 @@
+{
+  "type": "Catalog",
+  "id": "zondergeo",
+  "stac_version": "1.0.0",
+  "description": "without geology",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "DIS 2.1 Winbaarheid grids"
+    },
+    {
+      "rel": "child",
+      "href": "./stoor0_5m/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./stoor1m/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ]
+}

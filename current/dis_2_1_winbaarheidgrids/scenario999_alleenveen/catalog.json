@@ -1,0 +1,25 @@
+{
+    "type": "Catalog",
+    "id": "scenario999_alleenveen",
+    "stac_version": "1.0.0",
+    "description": "Scenario 999 Aleenveen of the DIS 2.1 Winbaarheid grids.",
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json",
+            "title": "ORELSE STAC Catalog"
+        },
+        {
+            "rel": "child",
+            "href": "./zondergeo/catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json",
+            "title": "DIS 2.1 Winbaarheid grids"
+        }
+    ]
+}

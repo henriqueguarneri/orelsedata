@@ -104,6 +104,7 @@ def check_compliancy(
             silent=False,
         )
         inst.checker(str(testfile))
+    return inst
 
 
 def save_compliancy(cap, testfile, working_dir):

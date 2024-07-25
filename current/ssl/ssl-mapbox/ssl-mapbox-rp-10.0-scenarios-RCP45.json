@@ -42,7 +42,7 @@
         "deltares:onclick": {},
         "rp": 10.0,
         "scenarios": "RCP45",
-        "datetime": "2023-09-13T15:24:53.858245Z"
+        "datetime": "2024-01-23T14:39:08.665811Z"
     },
     "geometry": {
         "type": "Polygon",
@@ -93,11 +93,11 @@
     ],
     "assets": {
         "mapbox": {
-            "href": "mapbox://global-data-viewer.europe_storm_surge_level_ssl",
+            "href": "mapbox://henriqueguarneri.CoastAlRisk_Europe_EESSL_ssl",
             "title": "Point locations",
             "description": "Mapbox url",
             "type": "vector",
-            "source": "europe_storm_surge_level_ssl",
+            "source": "CoastAlRisk_Europe_EESSL_ssl",
             "roles": [
                 "mapbox"
             ]

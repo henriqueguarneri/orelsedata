@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "id": "scenario1",
+  "stac_version": "1.0.0",
+  "description": "Scenario 1 of the DIS 2.1 Winbaarheid grids.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DIS 2.1 Winbaarheid grids"
+    },
+    {
+      "rel": "child",
+      "href": "./metgeo/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./zondergeo/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "DIS 2.1 Winbaarheid grids"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "win_04_10",
+    "properties": {
+        "created": "2024-04-16T10:00:03.272473Z",
+        "proj:bbox": [
+            502500.0,
+            5704750.0,
+            725750.0,
+            5963500.0
+        ],
+        "proj:shape": [
+            1035,
+            893
+        ],
+        "proj:epsg": "EPSG:23031",
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        725750.0,
+                        5704750.0
+                    ],
+                    [
+                        725750.0,
+                        5963500.0
+                    ],
+                    [
+                        502500.0,
+                        5963500.0
+                    ],
+                    [
+                        502500.0,
+                        5704750.0
+                    ],
+                    [
+                        725750.0,
+                        5704750.0
+                    ]
+                ]
+            ]
+        },
+        "proj:transform": [
+            250.0,
+            0.0,
+            502500.0,
+            0.0,
+            -250.0,
+            5963500.0
+        ],
+        "deltares:item_key": "win_04_10",
+        "datetime": "2024-04-16T12:00:03.272473Z"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    6.424252179478886,
+                    51.44701345601229
+                ],
+                [
+                    6.424252179478886,
+                    53.8181399961708
+                ],
+                [
+                    3.0346784553664445,
+                    53.8181399961708
+                ],
+                [
+                    3.0346784553664445,
+                    51.44701345601229
+                ],
+                [
+                    6.424252179478886,
+                    51.44701345601229
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../../../../../catalog.json",
+            "type": "application/json",
+            "title": "ORELSE STAC Catalog"
+        },
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "data": {
+            "href": "https://storage.googleapis.com/orelse-data-public/example/dis_2_1/dis_2_1/scenario3/zondergeo/stoor1m/win_04_10.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized"
+        }
+    },
+    "bbox": [
+        3.0346784553664445,
+        51.44701345601229,
+        6.424252179478886,
+        53.8181399961708
+    ],
+    "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+        "https://raw.githubusercontent.com/openearth/coclicodata/main/json-schema/schema.json"
+    ],
+    "collection": "stoor1m"
+}

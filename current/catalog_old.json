@@ -1,0 +1,73 @@
+{
+    "type": "Catalog",
+    "id": "coclico-catalog",
+    "stac_version": "1.0.0",
+    "description": "CoCliCo Catalog",
+    "links": [
+        {
+            "rel": "root",
+            "href": "./catalog.json",
+            "type": "application/json",
+            "title": "CoCliCo STAC Catalog"
+        },
+        {
+            "rel": "child",
+            "href": "./ssl/collection.json",
+            "type": "application/json",
+            "title": "Extreme surge level"
+        },
+        {
+            "rel": "child",
+            "href": "./dis3/collection.json",
+            "type": "application/json",
+            "title": "DIS 3.0"
+        },
+        {
+            "rel": "child",
+            "href": "./dis3_2/collection.json",
+            "type": "application/json",
+            "title": "DIS 3.0 alternative"
+        }
+    ],
+    "assets": {
+        "metadata": {
+            "href": "https://www.deltares.nl/en/news/development-of-a-new-european-platform-on-climate-services-for-coastal-risks-and-adaptation/",
+            "type": "application/html",
+            "title": "Deltares Website",
+            "description": "Deltares Website about CoCliCo",
+            "roles": [
+                "metadata"
+            ]
+        }
+    },
+    "summaries": {
+        "keywords": [
+            "Sea Levels",
+            "Natural Hazards",
+            "Exposure & Vulnerability",
+            "Risk & Adaptation"
+        ]
+    },
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180,
+                    -90,
+                    180,
+                    90
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2015-10-22T00:00:00Z",
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "various",
+    "title": "CoCliCo STAC Catalog"
+}

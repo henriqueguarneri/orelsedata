@@ -1,0 +1,35 @@
+{
+    "TITLE": "",
+    "TITLE_ABBREVIATION": "",
+    "DESCRIPTION": "",
+    "SHORT_DESCRIPTION": "",
+    "INSTITUTION": "",
+    "PROVIDERS": {
+        "name": "",
+        "url": "",
+        "roles": "",
+        "description": ""
+    },
+    "HISTORY": "",
+    "MEDIA_TYPE": "",
+    "SPATIAL_EXTENT": [
+        null,
+        null,
+        null,
+        null
+    ],
+    "TEMPORAL_EXTENT": [
+        "",
+        ""
+    ],
+    "LICENSE": "",
+    "AUTHOR": "",
+    "KEYWORDS": [],
+    "TAGS": [],
+    "CITATION": "",
+    "DOI": "",
+    "LONG_NAME": "",
+    "UNITS": "",
+    "COMMENT": "",
+    "CRS": ""
+}

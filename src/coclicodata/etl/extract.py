@@ -20,6 +20,7 @@ def get_mapbox_url(
 
     tilename = f"{pathlib.Path(filename).stem}_{var}"
     if len(tilename) > 32:
+        print(tilename)
         raise ValueError("Mapbox tilenames cannot be longer than 32 characters.")
 
     # for uploading geojson to mapbox the mapbox protocol should not be included

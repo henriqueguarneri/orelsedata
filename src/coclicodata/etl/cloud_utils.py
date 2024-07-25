@@ -6,7 +6,6 @@ import warnings
 from itertools import product
 from posixpath import join as urljoin
 from typing import Optional, Union
-
 import gcsfs
 import geojson
 import xarray as xr

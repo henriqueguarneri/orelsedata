@@ -232,7 +232,7 @@ if __name__ == "__main__":
     extend_links(collection, dimvals.keys())
 
     # save and limit number of folders, TODO: check if duplicate, then skip..
-    catalog.add_child(collection)m
+    catalog.add_child(collection)
 
     collection.normalize_hrefs(
         os.path.join(pathlib.Path(__file__).parent.parent.parent, STAC_DIR, COLLECTION_ID), strategy=layout

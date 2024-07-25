@@ -224,13 +224,13 @@
             "rel": "root",
             "href": "../catalog.json",
             "type": "application/json",
-            "title": "CoCliCo STAC Catalog"
+            "title": "ORELSE STAC Catalog"
         },
         {
             "rel": "parent",
             "href": "../catalog.json",
             "type": "application/json",
-            "title": "CoCliCo STAC Catalog"
+            "title": "ORELSE STAC Catalog"
         }
     ],
     "stac_extensions": [
@@ -585,9 +585,6 @@
         }
     },
     "license": "proprietary",
-    "keywords": [
-        "Sea Levels"
-    ],
     "providers": [
         {
             "name": "Deltares",
@@ -618,7 +615,7 @@
     },
     "assets": {
         "data": {
-            "href": "https://storage.googleapis.com/dgds-data-public/coclico/europe_storm_surge_level.zarr",
+            "href": "https://storage.googleapis.com/orelse-data-public/example/CoastAlRisk_Europe_EESSL.zarr",
             "title": "European extreme storm surge level zarr root",
             "description": "The root of the European extreme storm surge level zarr dataset on public Google Cloud Storage.",
             "roles": [
@@ -626,11 +623,6 @@
                 "zarr-root",
                 "gcs"
             ]
-        },
-        "thumbnail": {
-            "href": "https://storage.googleapis.com/dgds-data-public/coclico/assets/thumbnails/ssl.png",
-            "type": "image/png",
-            "title": "Thumbnail"
         }
     }
 }

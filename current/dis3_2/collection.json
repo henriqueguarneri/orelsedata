@@ -1,0 +1,1637 @@
+{
+    "type": "Collection",
+    "id": "dis3_2",
+    "stac_version": "1.0.0",
+    "description": "The Delfstoffen Informatie Systeem (DIS), developed by Deltares and TNO for Rijkswaterstaat, provides insights into the distribution of sand, peat, clay, and silt in the subsurface, as well as the granularity of sand across the North Sea and coastal areas. It's a decision-support tool for sustainable development in these regions. DIS 3.0 is the latest version, enhancing geological complexity understanding, with Zeeland's model delivered in 2020 and plans for further regional models. Usage is subject to terms ensuring responsible application and acknowledging potential limitations at smaller scales. For more detailed information, visit DINOloket.nl.",
+    "links": [
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--55.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -55.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--54.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -54.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--54.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -54.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--53.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -53.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--53.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -53.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--52.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -52.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--52.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -52.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--51.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -51.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--51.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -51.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--50.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -50.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--50.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -50.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--49.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -49.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--49.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -49.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--48.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -48.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--48.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -48.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--47.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -47.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--47.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -47.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--46.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -46.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--46.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -46.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--45.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -45.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--45.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -45.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--44.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -44.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--44.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -44.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--43.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -43.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--43.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -43.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--42.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -42.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--42.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -42.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--41.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -41.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--41.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -41.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--40.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -40.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--40.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -40.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--39.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -39.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--39.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -39.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--38.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -38.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--38.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -38.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--37.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -37.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--37.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -37.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--36.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -36.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--36.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -36.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--35.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -35.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--35.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -35.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--34.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -34.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--34.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -34.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--33.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -33.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--33.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -33.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--32.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -32.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--32.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -32.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--31.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -31.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--31.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -31.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--30.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -30.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--30.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -30.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--29.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -29.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--29.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -29.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--28.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -28.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--28.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -28.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--27.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -27.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--27.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -27.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--26.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -26.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--26.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -26.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--25.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -25.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--25.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -25.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--24.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -24.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--24.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -24.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--23.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -23.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--23.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -23.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--22.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -22.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--22.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -22.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--21.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -21.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--21.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -21.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--20.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -20.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--20.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -20.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--19.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -19.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--19.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -19.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--18.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -18.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--18.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -18.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--17.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -17.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--17.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -17.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--16.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -16.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--16.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -16.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--15.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -15.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--15.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -15.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--14.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -14.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--14.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -14.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--13.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -13.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--13.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -13.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--12.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -12.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--12.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -12.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--11.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -11.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--11.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -11.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--10.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -10.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--10.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -10.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--9.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -9.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--9.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -9.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--8.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -8.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--8.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -8.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--7.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -7.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--7.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -7.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--6.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -6.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--6.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -6.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--5.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -5.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--5.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -5.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--4.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -4.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--4.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -4.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--3.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -3.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--3.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -3.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--2.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -2.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--2.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -2.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--1.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -1.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--1.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -1.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--0.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -0.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z--0.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": -0.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-0.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 0.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-0.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 0.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-1.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 1.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-1.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 1.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-2.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 2.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-2.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 2.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-3.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 3.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-3.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 3.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-4.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 4.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-4.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 4.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-5.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 5.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-5.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 5.75
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-6.25.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 6.25
+            }
+        },
+        {
+            "rel": "item",
+            "href": "./KLASSE_DEF_SOARES-mapbox/KLASSE_DEF_SOARES-mapbox-Z-6.75.json",
+            "type": "application/json",
+            "properties": {
+                "Z": 6.75
+            }
+        },
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json",
+            "title": "ORELSE STAC Catalog"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json",
+            "title": "ORELSE STAC Catalog"
+        }
+    ],
+    "stac_extensions": [
+        "https://raw.githubusercontent.com/openearth/coclicodata/feat/update-deltares-stac-properties/json-schema/schema.json",
+        "https://stac-extensions.github.io/datacube/v2.0.0/schema.json",
+        "https://raw.githubusercontent.com/openearth/coclicodata/main/json-schema/schema.json"
+    ],
+    "deltares:units": "-",
+    "deltares:plotSeries": "scenario",
+    "deltares:plotxAxis": "time",
+    "deltares:plotType": "line",
+    "deltares:min": 0,
+    "deltares:max": 3,
+    "deltares:linearGradient": [
+        {
+            "color": "hsl(0,90%,80%)",
+            "offset": "0.000%",
+            "opacity": 100
+        },
+        {
+            "color": "hsla(55,88%,53%,0.5)",
+            "offset": "50.000%",
+            "opacity": 100
+        },
+        {
+            "color": "hsl(110,90%,70%)",
+            "offset": "100.000%",
+            "opacity": 100
+        }
+    ],
+    "cube:dimensions": {
+        "X": {
+            "axis": "x",
+            "extent": [
+                502700.0,
+                558900.0
+            ],
+            "step": 200.0,
+            "description": "X",
+            "reference_system": {
+                "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+                "type": "ProjectedCRS",
+                "name": "undefined",
+                "base_crs": {
+                    "name": "undefined",
+                    "datum": {
+                        "type": "GeodeticReferenceFrame",
+                        "name": "undefined",
+                        "ellipsoid": {
+                            "name": "undefined",
+                            "semi_major_axis": 6378137,
+                            "inverse_flattening": 298.257223563
+                        }
+                    },
+                    "coordinate_system": {
+                        "subtype": "ellipsoidal",
+                        "axis": [
+                            {
+                                "name": "Longitude",
+                                "abbreviation": "lon",
+                                "direction": "east",
+                                "unit": "degree"
+                            },
+                            {
+                                "name": "Latitude",
+                                "abbreviation": "lat",
+                                "direction": "north",
+                                "unit": "degree"
+                            }
+                        ]
+                    }
+                },
+                "conversion": {
+                    "name": "unknown",
+                    "method": {
+                        "name": "Transverse Mercator",
+                        "id": {
+                            "authority": "EPSG",
+                            "code": 9807
+                        }
+                    },
+                    "parameters": [
+                        {
+                            "name": "Latitude of natural origin",
+                            "value": 0,
+                            "unit": "degree",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8801
+                            }
+                        },
+                        {
+                            "name": "Longitude of natural origin",
+                            "value": 3,
+                            "unit": "degree",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8802
+                            }
+                        },
+                        {
+                            "name": "Scale factor at natural origin",
+                            "value": 0.9996,
+                            "unit": "unity",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8805
+                            }
+                        },
+                        {
+                            "name": "False easting",
+                            "value": 500000,
+                            "unit": "metre",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8806
+                            }
+                        },
+                        {
+                            "name": "False northing",
+                            "value": 0,
+                            "unit": "metre",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8807
+                            }
+                        }
+                    ]
+                },
+                "coordinate_system": {
+                    "subtype": "Cartesian",
+                    "axis": [
+                        {
+                            "name": "Easting",
+                            "abbreviation": "E",
+                            "direction": "east",
+                            "unit": "metre"
+                        },
+                        {
+                            "name": "Northing",
+                            "abbreviation": "N",
+                            "direction": "north",
+                            "unit": "metre"
+                        }
+                    ]
+                }
+            },
+            "type": "spatial"
+        },
+        "Y": {
+            "axis": "y",
+            "extent": [
+                5704700.0,
+                5765300.0
+            ],
+            "step": 200.0,
+            "description": "Y",
+            "reference_system": {
+                "$schema": "https://proj.org/schemas/v0.7/projjson.schema.json",
+                "type": "ProjectedCRS",
+                "name": "undefined",
+                "base_crs": {
+                    "name": "undefined",
+                    "datum": {
+                        "type": "GeodeticReferenceFrame",
+                        "name": "undefined",
+                        "ellipsoid": {
+                            "name": "undefined",
+                            "semi_major_axis": 6378137,
+                            "inverse_flattening": 298.257223563
+                        }
+                    },
+                    "coordinate_system": {
+                        "subtype": "ellipsoidal",
+                        "axis": [
+                            {
+                                "name": "Longitude",
+                                "abbreviation": "lon",
+                                "direction": "east",
+                                "unit": "degree"
+                            },
+                            {
+                                "name": "Latitude",
+                                "abbreviation": "lat",
+                                "direction": "north",
+                                "unit": "degree"
+                            }
+                        ]
+                    }
+                },
+                "conversion": {
+                    "name": "unknown",
+                    "method": {
+                        "name": "Transverse Mercator",
+                        "id": {
+                            "authority": "EPSG",
+                            "code": 9807
+                        }
+                    },
+                    "parameters": [
+                        {
+                            "name": "Latitude of natural origin",
+                            "value": 0,
+                            "unit": "degree",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8801
+                            }
+                        },
+                        {
+                            "name": "Longitude of natural origin",
+                            "value": 3,
+                            "unit": "degree",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8802
+                            }
+                        },
+                        {
+                            "name": "Scale factor at natural origin",
+                            "value": 0.9996,
+                            "unit": "unity",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8805
+                            }
+                        },
+                        {
+                            "name": "False easting",
+                            "value": 500000,
+                            "unit": "metre",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8806
+                            }
+                        },
+                        {
+                            "name": "False northing",
+                            "value": 0,
+                            "unit": "metre",
+                            "id": {
+                                "authority": "EPSG",
+                                "code": 8807
+                            }
+                        }
+                    ]
+                },
+                "coordinate_system": {
+                    "subtype": "Cartesian",
+                    "axis": [
+                        {
+                            "name": "Easting",
+                            "abbreviation": "E",
+                            "direction": "east",
+                            "unit": "metre"
+                        },
+                        {
+                            "name": "Northing",
+                            "abbreviation": "N",
+                            "direction": "north",
+                            "unit": "metre"
+                        }
+                    ]
+                }
+            },
+            "type": "spatial"
+        },
+        "Z": {
+            "values": [
+                -55.25,
+                -54.75,
+                -54.25,
+                -53.75,
+                -53.25,
+                -52.75,
+                -52.25,
+                -51.75,
+                -51.25,
+                -50.75,
+                -50.25,
+                -49.75,
+                -49.25,
+                -48.75,
+                -48.25,
+                -47.75,
+                -47.25,
+                -46.75,
+                -46.25,
+                -45.75,
+                -45.25,
+                -44.75,
+                -44.25,
+                -43.75,
+                -43.25,
+                -42.75,
+                -42.25,
+                -41.75,
+                -41.25,
+                -40.75,
+                -40.25,
+                -39.75,
+                -39.25,
+                -38.75,
+                -38.25,
+                -37.75,
+                -37.25,
+                -36.75,
+                -36.25,
+                -35.75,
+                -35.25,
+                -34.75,
+                -34.25,
+                -33.75,
+                -33.25,
+                -32.75,
+                -32.25,
+                -31.75,
+                -31.25,
+                -30.75,
+                -30.25,
+                -29.75,
+                -29.25,
+                -28.75,
+                -28.25,
+                -27.75,
+                -27.25,
+                -26.75,
+                -26.25,
+                -25.75,
+                -25.25,
+                -24.75,
+                -24.25,
+                -23.75,
+                -23.25,
+                -22.75,
+                -22.25,
+                -21.75,
+                -21.25,
+                -20.75,
+                -20.25,
+                -19.75,
+                -19.25,
+                -18.75,
+                -18.25,
+                -17.75,
+                -17.25,
+                -16.75,
+                -16.25,
+                -15.75,
+                -15.25,
+                -14.75,
+                -14.25,
+                -13.75,
+                -13.25,
+                -12.75,
+                -12.25,
+                -11.75,
+                -11.25,
+                -10.75,
+                -10.25,
+                -9.75,
+                -9.25,
+                -8.75,
+                -8.25,
+                -7.75,
+                -7.25,
+                -6.75,
+                -6.25,
+                -5.75,
+                -5.25,
+                -4.75,
+                -4.25,
+                -3.75,
+                -3.25,
+                -2.75,
+                -2.25,
+                -1.75,
+                -1.25,
+                -0.75,
+                -0.25,
+                0.25,
+                0.75,
+                1.25,
+                1.75,
+                2.25,
+                2.75,
+                3.25,
+                3.75,
+                4.25,
+                4.75,
+                5.25,
+                5.75,
+                6.25,
+                6.75
+            ],
+            "description": "Z",
+            "type": "temporal"
+        }
+    },
+    "cube:variables": {
+        "KLASSE_DEF_SOARES": {
+            "type": "data",
+            "description": "Lithology class",
+            "dimensions": [
+                "Z",
+                "Y",
+                "X"
+            ],
+            "unit": "1",
+            "attrs": {
+                "lithology_descriptions": "{1: 'Zand fijn (63-105 mu)', 2: 'Zand matig fijn (105-210 mu)', 3: 'Zand matig grof (210-420 mu)', 4: 'Zand grof (420-2000 mu) en grind (>2000 mu)', 5: 'Zandmediaan onbekend', 6: 'Klei/Leem', 7: 'Veen', 8: 'Schelpen'}",
+                "long_name": "Lithology class",
+                "units": "1"
+            },
+            "shape": [
+                125,
+                304,
+                282
+            ],
+            "chunks": [
+                32,
+                76,
+                71
+            ]
+        },
+        "SCHELPEN_KLASSE_SOARES": {
+            "type": "data",
+            "description": "Shell content class",
+            "dimensions": [
+                "Z",
+                "Y",
+                "X"
+            ],
+            "unit": "1",
+            "attrs": {
+                "long_name": "Shell content class",
+                "shell_content_class_descriptions": "0: Geen schelpen (0%), 1: Spoor schelpen (0 tot 1%), 2: Weinig schelpen (1 tot 10%), 3: Veel schelpen (10 tot 30%), 4: Schelpen % onbekend",
+                "units": "1"
+            },
+            "shape": [
+                125,
+                304,
+                282
+            ],
+            "chunks": [
+                32,
+                76,
+                71
+            ]
+        },
+        "SLIB_KLASSE_SOARES": {
+            "type": "data",
+            "description": "Mud content class",
+            "dimensions": [
+                "Z",
+                "Y",
+                "X"
+            ],
+            "unit": "1",
+            "attrs": {
+                "long_name": "Mud content class",
+                "mud_content_class_descriptions": "1: Zwak slibhoudend (0 tot 2%), 2: Matig zwak slibhoudend (2 tot 4%), 3: Matig sterk slibhoudend (4 tot 10%), 4: Sterk slibhoudend (>=10%)",
+                "units": "1"
+            },
+            "shape": [
+                125,
+                304,
+                282
+            ],
+            "chunks": [
+                32,
+                76,
+                71
+            ]
+        },
+        "bathy": {
+            "type": "data",
+            "description": "bathy",
+            "dimensions": [
+                "Z",
+                "Y",
+                "X"
+            ],
+            "unit": "Meter",
+            "attrs": {
+                "long_name": "bathy",
+                "units": "Meter"
+            },
+            "shape": [
+                125,
+                304,
+                282
+            ],
+            "chunks": [
+                32,
+                76,
+                71
+            ]
+        },
+        "sel_uitleveren_def": {
+            "type": "data",
+            "description": "sel_uitleveren_def",
+            "dimensions": [
+                "Z",
+                "Y",
+                "X"
+            ],
+            "unit": "1",
+            "attrs": {
+                "long_name": "sel_uitleveren_def",
+                "units": "1"
+            },
+            "shape": [
+                125,
+                304,
+                282
+            ],
+            "chunks": [
+                32,
+                76,
+                71
+            ]
+        },
+        "unit": {
+            "type": "data",
+            "description": "Formation class",
+            "dimensions": [
+                "Z",
+                "Y",
+                "X"
+            ],
+            "unit": "1",
+            "attrs": {
+                "formation_descriptions": [
+                    "0: Southern Bight, SB",
+                    "1: Naaldwijk, NA1",
+                    "2: Naaldwijk, NA2",
+                    "3: Naaldwijk, NA3",
+                    "4: Vroeg Holoceen, VROEG_HL",
+                    "5: Pleistoceen, PL",
+                    "6: Paleogeen, PAL"
+                ],
+                "long_name": "Formation class",
+                "units": "1"
+            },
+            "shape": [
+                125,
+                304,
+                282
+            ],
+            "chunks": [
+                32,
+                76,
+                71
+            ]
+        },
+        "utm31n_crs": {
+            "type": "data",
+            "description": "WGS 84 / UTM zone 31N coordinate reference system",
+            "dimensions": [],
+            "attrs": {
+                "false_easting": 500000.0,
+                "false_northing": 0.0,
+                "grid_mapping_name": "transverse_mercator",
+                "inverse_flattening": 298.257223563,
+                "latitude_of_projection_origin": 0.0,
+                "long_name": "WGS 84 / UTM zone 31N coordinate reference system",
+                "longitude_of_central_meridian": 3.0,
+                "scale_factor_at_central_meridian": 0.9996,
+                "semi_major_axis": 6378137.0
+            },
+            "shape": []
+        }
+    },
+    "title": "DIS 3.0 alternative",
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -180.0,
+                    -90.0,
+                    180.0,
+                    90.0
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    null,
+                    null
+                ]
+            ]
+        }
+    },
+    "license": "proprietary",
+    "providers": [
+        {
+            "name": "Deltares",
+            "description": "Deltares is an independent institute for applied research in the field of water and subsurface.",
+            "roles": [
+                "producer",
+                "processor"
+            ],
+            "url": "https://www.deltares.nl"
+        }
+    ],
+    "assets": {
+        "data": {
+            "href": "https://storage.googleapis.com/orelse-data-public/example/dis_3_0.zarr",
+            "title": "Notitie DIS 3.0 Voxelmodellering offshore Zeeland zarr root",
+            "description": "The root of the Notitie DIS 3.0 Voxelmodellering offshore Zeeland zarr dataset on public Google Cloud Storage.",
+            "roles": [
+                "data",
+                "zarr-root",
+                "gcs"
+            ]
+        }
+    }
+}
